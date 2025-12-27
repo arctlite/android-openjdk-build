@@ -21,7 +21,7 @@ fi
 
 if [[ -z "$JVM_VARIANTS" ]]
 then
-  export JVM_VARIANTS=server
+  export JVM_VARIANTS=client
 fi
 
 export JVM_PLATFORM=linux
